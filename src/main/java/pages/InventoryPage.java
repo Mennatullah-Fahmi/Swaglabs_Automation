@@ -79,7 +79,6 @@ public class InventoryPage {
         twitterIcon.click();
     }
 
-    // Product actions by name
     //Clicks the "Add to cart" or "Remove" button for a product, identified by its name on the inventory page.
     public void clickProductButton(String productName) {
         for (WebElement product : products) {
